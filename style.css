@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+}
+.counter{
+    font-size: 5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.count{
+    font-size: 4rem;
+}
+.button-div{
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+
+}
+.increase-btn{
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1rem;
+    background-color: none;
+    border: 1px solid black;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.increase-btn:hover{
+    background-color: grey;
+    color: white;
+}
+.btn{
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1rem;
+    background-color: none;
+    border: 1px solid black;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: grey;
+    color: white;
+}
+.reset-btn{
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1rem;
+    background-color: none;
+    border: 1px solid black;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.reset-btn:hover{
+    background-color: grey;
+    color: white;
+}
